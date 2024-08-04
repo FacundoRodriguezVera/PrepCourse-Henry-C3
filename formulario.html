@@ -2,73 +2,89 @@
 <html lang="es">
     <head>
         <title>Mi página web</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <header>
-            <img src="foorm.png" width="400px" height="250px">
-            <h1>Formulario de Experiencia del Usuario</h1>
+            <div id="FormTitle">
+                <h1>Formulario de Experiencia del Usuario</h1>
+                <h3>Completa el formulario con tu informacion personal y responde a las casillas para que tengamos un feedback y mejorar tu experiencia la proooxima vez que nos visites.</h3>
+            </div>
         </header>
+        <hr>
+        <br>
         <main>
-            <h3>Completa el formulario con tu informacion personal y responde a las casillas para que tengamos un feedback y mejorar tu experiencia la proooxima vez que nos visites.</h3>
-        
-            <form>
-
+            <section id="formulario-container">
                 <div>
-                    <label for="nombre">Ingresa tu nombre</label>
-                    <input type="text" name="nombre">
-                </div>
+                    <form class="formulario">
+                        <h3>Completa con tus datos personales</h3>
+                        <br>
+                        <div>
+                            <label for="nombre">Ingresa tu nombre</label>
+                            <input type="text" name="nombre">
+                        </div>
 
-                <br>
+                        <br>
 
-                <div>
-                    <label for="apellido">Ingresa tu apellido</label>
-                    <input type="text" name="apellido">
-                </div>
+                        <div>
+                            <label for="apellido">Ingresa tu apellido</label>
+                            <input type="text" name="apellido">
+                        </div>
                 
-                <br>
+                        <br>
 
-                <div>
-                    <label for="dni">Ingresa tu DNI</label>
-                    <input type="number" name="dni">
+                        <div>
+                            <label for="dni">Ingresa tu DNI</label>
+                            <input type="number" name="dni">
+                        </div>
+
+                        <br>
+
+                        <div>
+                            <label for="edad">Ingresa tu edad</label>
+                            <input type="number" name="edad">
+                        </div>
+
+                        <br>
+
+                        <div>
+                            <label for="experiencia">¡Describi Tu Experiencia!</label>
+                            <input type="text" name="experiencia">
+                        </div>
+
+                    </form>
                 </div>
 
                 <br>
 
-                <div>
-                    <label for="edad">Ingresa tu edad</label>
-                    <input type="number" name="edad">
-                </div>
-
                 <br>
 
                 <div>
-                    <label for="experiencia">¡Describi Tu Experiencia!</label>
-                    <input type="text" name="experiencia">
+                    <form class="formulario">
+                        <h3>Ingresa con tu Usuario</h3>
+                        <br>
+                        <div>
+                            <label for="user">Establedce tu nommbre de usuario</label>
+                            <input type="text" name="user">
+                        </div>
+
+                        <br>
+
+                        <div>
+                            <label for="password">Establedce tu contraseña</label>
+                            <input type="password" name="password">
+                        </div>
+
+                        <br>
+
+                        <button>Enviar</button>
+
+                    </form>
                 </div>
-
                 <br>
-                <hr>
-                <br>
-
-                <div>
-                    <label for="user">Establedce tu nommbre de usuario</label>
-                    <input type="text" name="user">
-                </div>
-
-                <br>
-
-                <div>
-                    <label for="password">Establedce tu contraseña</label>
-                    <input type="password" name="password">
-                </div>
-
-                <br>
-
-                <button>Enviar</button>
-
-            </form>
-            <br>
-            <p>Toca <a href="index.html">Aquí</a> para volver a la pagina principal</p>
+            </section>
         </main>
+        <br>
+        <p>Toca <a href="index.html">Aquí</a> para volver a la pagina principal</p>
     </body>
 </html>

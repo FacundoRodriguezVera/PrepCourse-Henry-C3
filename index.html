@@ -2,91 +2,135 @@
 <html lang="es">
     <head>
         <title>Mi página web</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
          <header>
-            <h1>Diario del Ejercicio</h1>
+            <div id="titulo">
+                <h1>Diario del Ejercicio</h1>
 
-            <span>ARTICULOS</span>
-            <span>EN VIVO</span>
-            <span>ECONOMIA</span>
-            <span>MUNDO</span>
-            <span>POLITICA</span>
-            <span>FUTBOL</span>
+                <span>ARTICULOS</span>
+                <span>EN VIVO</span>
+                <span>ECONOMIA</span>
+                <span>MUNDO</span>
+                <span>POLITICA</span>
+                <span>FUTBOL</span>
+            </div>
          </header>
          <main>
             <br>
             <section>
                 <h2>Noticias del dia</h2>
 
-                <hr>
+                <div id="notice-container">
 
-                <article>
-                    <h3> Erupcion de un volcan en Hawai</h3>
-                    <div> 
-                        <p>Hoy a las 9 de la noche un volcan hizoo erupcion y amenazo con la destruccion de un pueblo cercano, oficiales de la zona y expertos coontribuyeroon con la causa y lograron detener el avance mediante pozos, no se registraron heridos.</p>
-                    </div>
-                </article>
+                    <article class = "noticia">
+                        <h3> Erupcion de un volcan en Hawai</h3>
+                        <div> 
+                            <p>Hoy a las 9 de la noche un volcan hizoo erupcion y amenazo con la destruccion de un pueblo cercano, oficiales de la zona y expertos coontribuyeroon con la causa y lograron detener el avance mediante pozos, no se registraron heridos.</p>
+                            <img src="volcan.jpeg" width="90%" height="50%">
+                        </div>
+                    </article>
 
-                <hr>
-
-                <article>
-                    <h3>Construccionde mil canchas de futbol en Bayer</h3>
-                    <div> 
-                        <p>El Bayer Munich llevo a cabo una obra de constreuccion masiva, a loo largo de la ciudad se contruyeron aproximadamente 10 canchas de futbol, entre ellas algunas de futsal y fue viral en todos lados, los directivos del clu recibieron un reconocimiento por su contribucion.</p>
-                        <p>A continuacioon una lista de los tres estadios mas caros construidos:</p>
-                        <ul>
-                            <li>
-                                Aukers, 130.000 dolares
-                            </li>
-                            <li>
-                                Markys, 90.000 dolares
-                            </li>
-                            <li>
-                                Olimpike, 87.000 dolares
-                            </li>
-                        </ul>
-                    </div>
+                    <article class = "noticia">
+                        <h3>Construccionde mil canchas de futbol en Bayer</h3>
+                        <div> 
+                            <p>El Bayer Munich llevo a cabo una obra de constreuccion masiva, a loo largo de la ciudad se contruyeron aproximadamente 10 canchas de futbol, entre ellas algunas de futsal y fue viral en todos lados, los directivos del clu recibieron un reconocimiento por su contribucion.</p>
+                            <p>A continuacioon una lista de los tres estadios mas caros construidos:</p>
+                            <ul>
+                                <li>
+                                    Aukers, 130.000 dolares
+                                </li>
+                                <li>
+                                    Markys, 90.000 dolares
+                                </li>
+                                <li>
+                                    Olimpike, 87.000 dolares
+                                </li>
+                            </ul>
+                        </div>
                     
-                </article>
+                    </article>
 
-                <hr>
+                    <article class = "noticia">
+                        <h3>Construccionde mil canchas de futbol en Bayer</h3>
+                        <div> 
+                            <p>El Bayer Munich llevo a cabo una obra de constreuccion masiva, a loo largo de la ciudad se contruyeron aproximadamente 10 canchas de futbol, entre ellas algunas de futsal y fue viral en todos lados, los directivos del clu recibieron un reconocimiento por su contribucion.</p>
+                            <p>A continuacioon una lista de los tres estadios mas caros construidos:</p>
+                            <ul>
+                                <li>
+                                    Aukers, 130.000 dolares
+                                </li>
+                                <li>
+                                    Markys, 90.000 dolares
+                                </li>
+                                <li>
+                                    Olimpike, 87.000 dolares
+                                </li>
+                            </ul>
+                        </div>
+                    
+                    </article>
 
+                </div>
             </section>
             <br>
             <br>
             <br>
             <section>
                 <h2>Juegos Olimpicos Paris 2024</h2>
-                <img src="Paris2024.png" height="250px" width="400px">
-                <!-- <a href="https://olympics.com/es/olympic-games"><img src="Paris2024.png" height="250px" width="400px"></a> -->
-                <legend>Visita la pagina oficial haciendo clik en la imagen</legend>
-                <br>
-                <hr>
 
-                <article>
-
-                    <h3>¡Oro para Argentina!</h3>
-
-                    <div> 
-                        <p>Despues de muchoo esfuerzo argentina consiguipo la primjer medalla de su historia en ciclismo BMX. Orgulloso de ser argentino. A continuacion una lista del podio en la competicion Masculina:</p>
-                        <ol>
-                            <li>
-                                Oro - Jose manolo (Argentina)
-                            </li>
-                            <li>
-                                Plata - Antonio Banderas (Colombia)
-                            </li>
-                            <li>
-                                Bronce - Augusto Rey (Mexico)
-                            </li>
-                        </ol>
+                <div id="juegosOlimpicosNoticia-container">
+                    
+                    <div id="ImgJJOO">
+                        <a href="https://olympics.com/es/olympic-games"><img src="Paris2024.png" height="250px" width="400px" id="JJOO"></a> 
+                        <legend style="padding: 0.5em; background-color: white;">Visita la pagina oficial haciendo clik en la imagen</legend>
                     </div>
 
-                </article>
 
-                <hr>
+                    <article class = "noticia">
 
+                        <h3>¡Oro para Argentina!</h3>
+
+                        <div> 
+                            <p>Despues de muchoo esfuerzo argentina consiguipo la primjer medalla de su historia en ciclismo BMX. Orgulloso de ser argentino. A continuacion una lista del podio en la competicion Masculina:</p>
+                            <ol>
+                                <li>
+                                    Oro - Jose manolo (Argentina)
+                                </li>
+                                <li>
+                                    Plata - Antonio Banderas (Colombia)
+                                </li>
+                                <li>
+                                    Bronce - Augusto Rey (Mexico)
+                                </li>
+                            </ol>
+                        </div>
+
+                    </article>
+
+                    <article class = "noticia">
+
+                        <h3>¡Oro para Argentina!</h3>
+
+                        <div> 
+                            <p>Despues de muchoo esfuerzo argentina consiguipo la primjer medalla de su historia en ciclismo BMX. Orgulloso de ser argentino. A continuacion una lista del podio en la competicion Masculina:</p>
+                            <ol>
+                                <li>
+                                    Oro - Jose manolo (Argentina)
+                                </li>
+                                <li>
+                                    Plata - Antonio Banderas (Colombia)
+                                </li>
+                                <li>
+                                    Bronce - Augusto Rey (Mexico)
+                                </li>
+                            </ol>
+                        </div>
+
+                    </article>
+
+                </div>
             </section>
             
          </main>

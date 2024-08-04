@@ -1,0 +1,96 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fffbe2;
+    color: #333;
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+span:hover{
+    font-weight: bold;
+}
+
+h2 {
+    font-style: italic;
+}
+
+#notice-container {
+    display: flex;
+    justify-content: space-around;
+
+    background-color: rgb(211, 211, 211);
+    padding: 1.1em;
+    border: 2px solid black;
+
+}
+
+.noticia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    padding: 1em;
+
+    background-color: white;
+    width: 25vw;
+    border: 1px solid black;
+
+
+}
+
+.noticia:hover{
+    background-color: rgb(255, 251, 201);
+}
+
+#juegosOlimpicosNoticia-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5em;
+
+}
+
+#ImgJJOO {
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid black;
+}
+
+#JJOO{
+    border-bottom: 2px solid black;
+}
+
+#FormTitle{
+    display: flex;
+    justify-content:flex-start;
+    width: 65vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #333;
+    gap:3em;
+    margin:2em;
+}
+
+#formulario-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formulario {
+    border: 2px solid #000000 ; 
+    border-radius: 5px;
+    padding:  2em;
+}
+
+.formulario:hover{
+    transform: scale(1.08, 1.08);
+}
+
